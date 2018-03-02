@@ -351,3 +351,19 @@ fig.savefig(buffer)
 
 plot_data = buffer.getvalue()
 
+
+# In[9]:
+
+plt.rc('figure', figsize=(5, 5))
+
+
+# In[12]:
+
+params = {'size': 10, 'family': 'monospace', 'weight': 'bold'}
+plt.rc('font', **params)
+
+
+# In[14]:
+
+plt.style.available
+
